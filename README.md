@@ -1,6 +1,13 @@
-# react-native-linear-gradient-degree
-
-Transform css linear-gradient degree to start and end coordinates in  [react-native-linear-gradient](https://www.npmjs.com/package/react-native-linear-gradient) or [expo-linear-gradient](https://www.npmjs.com/package/expo-linear-gradient) .
+<h1 align="center">react-native-linear-gradient-degree</h1>
+<p align="center">Transform css linear-gradient degree to start and end coordinates <br/> in <a href="https://www.npmjs.com/package/react-native-linear-gradient">react-native-linear-gradient</a> or <a href="https://www.npmjs.com/package/expo-linear-gradient">expo-linear-gradient</a></p>
+<p align="center">
+<a href="https://travis-ci.org/lake2/imdux"><img src="https://travis-ci.org/lake2/imdux.svg?branch=master" alt="CI Status"></a>
+<a href="https://coveralls.io/github/lake2/imdux?branch=master"><img src="https://coveralls.io/repos/github/lake2/imdux/badge.svg?branch=master" alt="Coverage Status"></a>
+<a href="https://npmjs.com/package/imdux"><img src="https://img.shields.io/npm/v/imdux" alt="Version"></a>
+<a href="https://npmjs.com/package/imdux"><img src="https://img.shields.io/npm/dt/imdux" alt="Download"></a>
+<a href="https://github.com/lake2/imdux"><img src="https://img.shields.io/bundlephobia/minzip/imdux" alt="Mini size"></a>
+<a href="https://github.com/lake2/imdux"><img src="https://img.shields.io/npm/l/imdux" alt="MIT License"></a>
+</p>
 
 ## Usage
 
