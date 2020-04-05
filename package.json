@@ -1,0 +1,58 @@
+{
+    "name": "react-native-linear-gradient-degree",
+    "version": "0.0.1",
+    "description": "",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "test": "jest",
+        "cover": "jest --coverage --coverageReporters=text-lcov | coveralls",
+        "pack": "webpack --config webpack.dist.config",
+        "pub": "npm publish --registry http://registry.npmjs.org",
+        "lint": "node_modules/.bin/tslint -p tsconfig.json --fix"
+    },
+    "files": [
+        "dist/index.js",
+        "dist/index.d.ts",
+        "dist/index.js.map",
+        "src/**/*"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lake2/react-native-linear-gradient-degree.git"
+    },
+    "keywords": [
+        "react",
+        "react-native",
+        "react-native-linear-gradient",
+        "expo-linear-gradient",
+        "start",
+        "end",
+        "coordinates",
+        "degree"
+    ],
+    "author": "lake2",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/lake2/react-native-linear-gradient-degree/issues"
+    },
+    "homepage": "https://github.com/lake2/react-native-linear-gradient-degree#readme",
+    "devDependencies": {
+        "@babel/core": "^7.9.0",
+        "@babel/plugin-transform-runtime": "^7.9.0",
+        "@babel/preset-env": "^7.9.0",
+        "@babel/preset-typescript": "^7.9.0",
+        "@babel/runtime": "^7.9.2",
+        "@types/jest": "^25.1.5",
+        "babel-loader": "^8.1.0",
+        "coveralls": "^3.0.11",
+        "html-webpack-plugin": "^3.2.0",
+        "jest": "^25.2.6",
+        "tslint": "^6.1.1",
+        "typescript": "^3.8.3",
+        "uglifyjs-webpack-plugin": "^2.2.0",
+        "webpack": "^4.42.1",
+        "webpack-bundle-analyzer": "^3.6.1",
+        "webpack-cli": "^3.3.11"
+    }
+}
